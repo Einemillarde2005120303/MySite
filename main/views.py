@@ -8,7 +8,10 @@ def home(request):
     return render(request, 'home.html')
 
 def login(request):
-    return HttpResponse('<h1>Login Page</h1>')
+    return render(request, 'login.html')
 
 def signup(request):
-    return HttpResponse('<h1>SignUp Page</h1>')
+    return render(request, 'signup.html')
+
+def logos(request):
+    ...
