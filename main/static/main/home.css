@@ -1,0 +1,54 @@
+*{
+    font-family: 'Segoe UI';
+}
+:root{
+    --logo-color: white;
+}
+svg .fill{
+    fill: var(--logo-color);
+}
+svg .stroke{
+    stroke: var(--logo-color);
+}
+nav{
+    background-color: #151515;
+    display: flex;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    border: 3px solid white;
+    background-color: #0000;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 12px 1rem;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #ffffff25;
+}
+a:active{
+    background-color: #fff5;
+}
+#login-btn{
+    margin-left: auto;
+}
+main{
+    max-height: calc(100vh - 61px);
+    overflow: auto;
+}
+#slogan-div{
+    font-weight: bold;
+    font-size: 5.2em;
+    padding: 50px 250px;
+}
+#slogan-div>span{
+    font-size: 1.3em;
+    color: rgb(16, 127, 238);
+}

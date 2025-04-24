@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+<head>
+    <title>chat.com | Homepage</title>
+    <link rel="stylesheet" href="{% static 'main/home.css' %}">
+</head>
+<body>
+    <nav>
+        <img src="{% static 'main/logo+label_white.svg' %}">
+        <a id="login-btn" href="/login/">Login</a>
+        <a id="signup-btn" href="/signup/">Create Account</a>
+    </nav>
+    <main>
+        <div id="slogan-div">
+            It's not Whatsapp<br>
+            It's not Discord<br>
+            ...<br>
+            It's <span>BETTER</span>
+        </div>
+    </main>
+</body>
+</html>

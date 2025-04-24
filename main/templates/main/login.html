@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head>
+    <title>chat.com | login</title>
+    <link rel="stylesheet" href="{% static 'main/login.css' %}">
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <div>
+            <label for="username">Username:</label><br>
+            <input id="username"></input>
+        </div>
+        <div>
+            <label for="password">Password:</label><br>
+            <input id="password" type="password"></input>
+        </div>
+        <span id="errormsg"></span>
+        <button id="login-btn">Login</button>
+        <span id="create">Don't have an account? <a href="/signup/">Create One</a></span>
+    </div>
+</body>
+</html>
