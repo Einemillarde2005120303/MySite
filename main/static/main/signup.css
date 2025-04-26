@@ -41,6 +41,6 @@ label{
 #signup-btn:active{
     background-color: #89ffc8;
 }
-#errormsg{
+#password-errormsg{
     color: red;
 }
